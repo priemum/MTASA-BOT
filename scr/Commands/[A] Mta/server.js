@@ -7,7 +7,7 @@ let Generator =  (arr, title, des) => {
         const newarr = arr.slice(i, k);
         let j = i
         k += 3;
-        const ebc = newarr
+        const ebc = newarr       
         .map(server => {
             return {
                 name: `**${server.name}**`,
